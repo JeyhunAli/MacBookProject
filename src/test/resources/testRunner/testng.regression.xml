@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Google Test Suite" verbose="5">
+
+	<listeners>
+		<listener class-name="com.Listeners.ExtentReportListener" />
+
+<!--  		<listener class-name="com.Listeners.TestAllureListener" />
+ -->	</listeners>
+ 
+
+
+	<test name="Google regression Test">
+		<classes>
+
+			<class name="com.Tests.GoogleMainPageTest" />
+
+
+		</classes>
+	</test>
+</suite>
